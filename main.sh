@@ -1,6 +1,8 @@
 #!/bin/bash
 
-basedir='/home/ajrv/Videos/1337/scripts/'
+basedir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/"
+echo $basedir
+
 x=$(cat "$basedir"allfilmtitle | rofi -dmenu -i)
 if [ "$x" != "" ]; then
   xspace=$(echo "$x" | sed -e 's/ /%20/g')
