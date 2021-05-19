@@ -15,7 +15,7 @@ if [ "$x" != "" ]; then
     wget -O "$basedir".$mainx.html https://www.1377x.to$link
     magnet=$(cat "$basedir"."$mainx".html | grep -m 1 "magnet" | sed -e 's/"/ /g' | awk '{print $7}')
     transmission-remote -a $magnet
-    sudo rm -rf $basedir*.html
+    sudo rm -rf $basedir.*.html
     sudo rm -rf $basedir.$mainx
   fi
 fi
