@@ -5,5 +5,5 @@ echo $x
 #if [ "$x"=="ID" ]; then
 #  echo 'bye'
 #else
-#  transmission-remote -t $x -r
+transmission-remote -t $x -r
 #fi

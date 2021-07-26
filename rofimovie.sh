@@ -4,6 +4,7 @@ basedir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/"
 echo $basedir
 
 x=$(cat "$basedir"allfilmtitle | rofi -dmenu -i)
+echo $x
 if [ "$x" != "" ]; then
   xspace=$(echo "$x" | sed -e 's/ /%20/g')
   mainx=$(echo "$x" | sed -e 's/ /-/g')

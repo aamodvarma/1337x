@@ -20,3 +20,5 @@ After changing the download directory, to start the Transmission session, you ca
 ```
 transmission-daemon
 ```
+
+Bind the files
