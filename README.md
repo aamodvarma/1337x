@@ -11,6 +11,11 @@ rofi or dmenu
 # Usage
 After downloading transmission-cli, change the download direcotry using the following command.
 
-'''sh
+```sh
 transmission-daemon --download-dir "your-download-directory-path"
-'''
+```
+
+After changing the download directory, to start the Transmission session, you can run the daemon:
+```
+transmission-daemon
+```
