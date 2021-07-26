@@ -1,6 +1,6 @@
 # 1337x
-Bash script to download movies/torrent using rofi.
-Uses 1337x.to to download the torrents.
+Bash script to download movies/torrent using rofi.\n
+Uses 1337x.to to download the torrents.\n
 The file "allfilmtitle" is not required but it contains a list of popular english movies.
 
 # Requirements
