@@ -21,4 +21,4 @@ After changing the download directory, to start the Transmission session, you ca
 transmission-daemon
 ```
 
-Bind the files
+Bind the scripts *movie.sh and transmission_stop.sh to keybinds, for example you can use sxhkd or so.
